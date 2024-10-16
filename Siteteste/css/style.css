@@ -1,0 +1,69 @@
+.texto {
+    padding-top: 60px;
+}
+
+
+.h11 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+span {
+    font-weight: 700;
+    size: 40px;
+}
+.lorem {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    color: white;
+    size: 17px;
+}
+
+header {
+    background-image: url("../img/Banner-biolabs.jpeg");
+    /*background-color: purple;*/
+    width: 1920;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo img {
+    max-width: 150px;
+    max-height: 100px;
+}
+.nav-menu {
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav ul {
+    list-style: none;
+    padding: 100px;
+}
+
+.nav-menu li{
+    display: flex inline;
+}
+.nav-menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: "Sora", sans-serif; 
+    font-weight: 400;
+    size: 16px;
+    
+}
+
+button{
+    background-color: #520660;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 20px;
+    text-align: center;
+}
